@@ -4,6 +4,6 @@ public class DebugTask10 {
         List<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Charlie"));
         names.removeIf(name -> name.startsWith("A"));
 
-        //System.out.println(names);
+        System.out.println(names);
     }
 }
